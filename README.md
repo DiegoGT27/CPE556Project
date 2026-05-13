@@ -33,7 +33,7 @@ The system is built around the **B-U585I-IOT02A** discovery kit and organized in
 During testing, the system successfully connected to Wi-Fi, obtained an IP via DHCP, and uploaded temperature readings to ThingSpeak at one-minute intervals.
 A 10-minute live demo was conducted where a lighter was used to heat the sensor, and the temperature spike was clearly visible on the ThingSpeak dashboard.
 
-![ThingSpeak Results](docs/ThingSpeak.png)
+![Results](docs/ThingSpeak.png)
 
 **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=3qEgXVXQWnU)  <br>
 **Final Report:** [View Report](docs/CPE556_Final_Report.pdf)
