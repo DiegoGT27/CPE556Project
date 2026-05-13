@@ -17,6 +17,7 @@ ThingSpeak cloud platform for real-time monitoring, all implemented at the regis
     - `YOUR_SSID` — your Wi-Fi network name
     - `YOUR_PASSWORD` — your Wi-Fi password
     - `YOUR_API_KEY` — your ThingSpeak write API key
+    - `YOUR_CHANNEL_ID` — your ThingSpeak channel ID
 4. Build and flash to the board
 5. Open Tera Term to monitor boot and connection status
 
@@ -28,6 +29,14 @@ The system is built around the **B-U585I-IOT02A** discovery kit and organized in
 - All processing and cloud communication logic runs on the **STM32U5** chip in bare-metal C
 
 ![System Diagram](docs/system_diagram.png)
+
+## File Structure
+
+| File | Description |
+|------|-------------|
+| `Temperature.c` | HTS221 sensor initialization, I2C communication, and temperature conversion |
+| `IoT.c` | EMW3080 Wi-Fi module, SPI driver, and ThingSpeak cloud communication |
+| `Integration.c` | Final integrated application combining sensor and IoT modules |
 
 ## Results
 During testing, the system successfully connected to Wi-Fi, obtained an IP via DHCP, and uploaded temperature readings to ThingSpeak at one-minute intervals.
