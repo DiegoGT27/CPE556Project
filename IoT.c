@@ -941,8 +941,8 @@ static int EMW_GetIP(void)
 /* ------------------------------------------------------------------ */
 #define THINGSPEAK_HOST     "api.thingspeak.com"
 #define THINGSPEAK_PORT     80
-#define THINGSPEAK_API_KEY  "RNAR5U5X56NTWT7J"
-#define THINGSPEAK_CH_ID    3338401
+#define THINGSPEAK_API_KEY  "YOUR_API_KEY"
+#define THINGSPEAK_CH_ID    YOUR_CHANNEL_ID
 
 /* Socket command IDs from mx_wifi_ipc.h */
 #define MIPC_API_SOCKET_CREATE_CMD      0x0201u
@@ -1558,8 +1558,7 @@ int main(void)
 
     /* Step 2: connect to WiFi */
     USART1_Print("--- WIFI CONNECT ---\r\n");
-    //int result = EMW_WiFiConnect("DG", "12345678");
-		int result = EMW_WiFiConnect("MyOptimum 556f1f", "copper-87-9422");
+		int result = EMW_WiFiConnect("YOUR_SSID", "YOUR_PASSWORD");
 		
     /* Declare ip_ok HERE so while(1) can see it */
     int ip_ok = 0;
