@@ -35,7 +35,7 @@ A 10-minute live demo was conducted where a lighter was used to heat the sensor,
 
 ![ThingSpeak Results](docs/ThingSpeak.png)
 
-**Demo Video:** [Watch on YouTube]([https://youtube.com/your-link-here](https://www.youtube.com/watch?v=3qEgXVXQWnU))<br>
+**Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=3qEgXVXQWnU)  <br>
 **Final Report:** [View Report](docs/CPE556_Final_Report.pdf)
 
 ## Team :
